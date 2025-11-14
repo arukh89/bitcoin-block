@@ -1,12 +1,5 @@
 {
-  "version": 2,
-  "framework": "nextjs",
-  "buildCommand": "pnpm build",
   "installCommand": "corepack enable && corepack prepare pnpm@10.0.0 --activate && pnpm install --frozen-lockfile",
-  "build": {
-    "env": {
-      "NEXT_BUILDER": "turbo"
-    }
-  }
+  "buildCommand": "pnpm run build",
+  "framework": "nextjs"
 }
-
