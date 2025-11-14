@@ -12,7 +12,7 @@
     "verify-turbo": "node -e \"const fs=require('fs');const pkg=JSON.parse(fs.readFileSync('package.json','utf8'));const nextVer=pkg.dependencies.next;console.log('✅ Next.js version:', nextVer);console.log('✅ Turbopack is automatically enabled in Next.js 16+ with Node.js 20+');process.exit(0);\""
   },
   "engines": {
-    "node": ">=20.0.0",
+    "node": "20.x",
     "pnpm": "10.x"
   },
   "dependencies": {
